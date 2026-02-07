@@ -218,6 +218,14 @@ export default function AdminPage() {
           </div>
           <div className="header-actions">
             <a 
+              href="/obs-control" 
+              className="preview-btn"
+              style={{ background: 'linear-gradient(45deg, #3b82f6, #2563eb)' }}
+            >
+              <span className="btn-icon">🎮</span>
+              <span className="btn-text">OBS Control</span>
+            </a>
+            <a 
               href="/overlay" 
               target="_blank" 
               rel="noopener noreferrer"
